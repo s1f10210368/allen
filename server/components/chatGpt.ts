@@ -4,11 +4,11 @@ import {
   ChatCompletionRequestMessageRoleEnum,
 } from 'openai'
 
-const apiKey = process.env.OPENAI_API_KEY
+const apiKey = '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' // 提供いただいたAPIキー
 
 const configuration = new Configuration({
   apiKey,
-  organization: 'org-GHeRb176sq3PXbOKM9re29zR',
+  organization: 'oorg-XjG23lU49K0TAYhXABzY9Z0N',
 })
 const openai = new OpenAIApi(configuration)
 
@@ -24,6 +24,7 @@ export const chatGpt = async (content: string) => {
   })
   return res.data.choices[0].message?.content
 }
+
 /*const content = '世界のなかで大きい山を順番に5個出力してください'
   main(content)
   */
