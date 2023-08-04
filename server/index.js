@@ -25,7 +25,7 @@ async function kusa() {
         });
         fastify.post('/login', async (req, reply) => {
             const userData = req.body;
-            //reply.send(userData)
+            reply.send(userData);
         });
         //テキストを受け取りchatGPTAPIに投げる
         fastify.post('/text', async (req, reply) => {

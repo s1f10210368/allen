@@ -40,7 +40,7 @@ const QuestionForm: React.FC<QuestionFormProps> = ({ onSubmit }) => {
         variant="contained"
         color="primary"
       >
-        レポートを作成する
+        レポートを作成
       </Button>
       <TextField
         id="word-count"

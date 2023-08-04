@@ -4,11 +4,11 @@ import {
   ChatCompletionRequestMessageRoleEnum,
 } from 'openai'
 
-const apiKey = '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' // 提供いただいたAPIキー
+const apiKey = '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' // 提供いただいたAPIキー
 
 const configuration = new Configuration({
   apiKey,
-  organization: 'oorg-XjG23lU49K0TAYhXABzY9Z0N',
+  organization: 'org-zeXTUGHZJuxvxt3ihfvZCphh',
 })
 const openai = new OpenAIApi(configuration)
 

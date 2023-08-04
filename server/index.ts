@@ -33,7 +33,7 @@ async function kusa() {
         email: FormDataEntryValue
         password: FormDataEntryValue
       }
-      //reply.send(userData)
+      reply.send(userData)
     })
 
     //テキストを受け取りchatGPTAPIに投げる
@@ -50,7 +50,6 @@ async function kusa() {
     await fastify.listen({ port: 8080 })
     console.log(`Server listening at ${8080}`)
   })()
-
   //return main()
 }
 
