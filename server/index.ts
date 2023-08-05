@@ -53,14 +53,12 @@ async function kusa() {
   //return main()
 }
 
-/*
 async function returnText(answer: string) {
   fastify.get('/text', (req, reply) => {
     console.log('getできた')
     return answer
   })
 }
-*/
 
 async function main(
   fmail: string,
